@@ -12,20 +12,10 @@ body {
 	line-height: 1.5;
 }
 
-p {
-	color: blue;
-}
+/* ::first-line  */
 
-p::first-line {
-	color: red;
-}
+/* ::first-letter  */
 
-p::first-letter {
-	color: green;
-	font-size: 200%;
-	font-weight: bold;
+/* ::before  */
 
-	float: left;
-	padding: 0 10px;
-	font-family: serif;
-}
+/* ::after  */

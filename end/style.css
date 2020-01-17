@@ -1,0 +1,57 @@
+body {
+	font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 3rem;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 110%;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+
+/* ::first-line  */
+p {
+	color: blue;
+}
+
+p::first-line {
+	color: red;
+}
+
+/* ::first-letter  */
+p::first-letter {
+	color: green;
+	font-size: 200%;
+	font-weight: bold;
+
+	float: left;
+	padding: 0 10px;
+	font-family: serif;
+}
+
+/* ::before  */
+h2::before {
+	content: '⚡️⚡️ ';
+}
+
+h1::before {
+	content: 'Main ';
+	color: purple;
+}
+
+/* ::after  */
+ul > li {
+	color: magenta;
+}
+
+ul > li::after {
+	content: url('https://bit.ly/2uZTSB8');
+}
+
+body::after {
+	content: 'The End';
+	font-size: 500%;
+}
