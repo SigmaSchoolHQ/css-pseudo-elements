@@ -34,12 +34,17 @@ p::first-letter {
 
 /* ::before  */
 h2::before {
-	content: '⚡️⚡️ ';
+	content: '⚡️⚡️';
 }
 
 h1::before {
 	content: 'Main ';
 	color: purple;
+}
+
+h1::after {
+	content: ' Type';
+	color: deepskyblue;
 }
 
 /* ::after  */
